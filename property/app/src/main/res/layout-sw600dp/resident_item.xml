@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+style="@style/Widget.agriReach.CardView.elevation"
+android:layout_width="match_parent"
+android:layout_height="800dp"
+    android:background="@color/white">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:src="@drawable/casacanal_12"
+            android:scaleType="centerCrop"/>
+
+</com.google.android.material.card.MaterialCardView>
